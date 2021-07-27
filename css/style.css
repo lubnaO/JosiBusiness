@@ -152,6 +152,14 @@ Secondcolor:#ec1c23
     width: 50%;
     letter-spacing: 9px;
 }
+@media(max-width:540px){
+    .company-overview p:first-of-type{
+        color: var(--text-color);
+        font-size: 20px;
+        margin: 20px auto 15px;
+        width: 90%;
+    }
+}
 .company-overview .view-more-button{
     background-color: var(--secondry-color);
     color: white;
@@ -240,6 +248,12 @@ Secondcolor:#ec1c23
 .testimonial .carousel-inner .carousel-caption{
       top: 20%;
       text-align: center;
+}
+@media(max-width:540px){
+    .testimonial .carousel-inner .carousel-caption{
+        top: 5%;
+        text-align: center;
+  }
 }
 .testimonial .carousel-inner .carousel-caption  p:first-of-type{
     color: var(--text-color);
@@ -429,6 +443,14 @@ Secondcolor:#ec1c23
 .first-section {
     flex-basis: 33.3%;
 }
+@media (max-width:540px){
+    .first-section{
+    flex-basis: 100%;
+    text-align: start;
+    margin: 1px 25px;
+    padding: 0;
+    }
+}
 .footer .first-section p{
     color: var(--text-color);
 }
@@ -438,6 +460,11 @@ Secondcolor:#ec1c23
 }
 .second-section{
     flex-basis: 33.3%;
+}
+@media (max-width:540px){
+    .second-section{
+    flex-basis: 50%;
+    }
 }
 .second-section h3,
 .third-section h3{
@@ -461,6 +488,11 @@ Secondcolor:#ec1c23
 }
 .third-section{
     flex-basis: 33.3%;
+}
+@media (max-width:540px){
+    .third-section{
+    flex-basis: 50%;
+    }
 }
 .third-section .footer-list{
     list-style: none;
