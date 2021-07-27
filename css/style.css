@@ -1,0 +1,494 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+/**
+Theme name: JoisCorp
+FirstColor:#08526d;
+Secondcolor:#ec1c23 
+/**Global varibale**/
+:root{
+    --main-color:#08526d;
+    --secondry-color:#ec1c23 ;
+    --margin-sections:100px;
+    --text-color:  #808485;
+}
+/**NavBar Start here**/
+.upper-bar{
+    background-color: var(--main-color);
+    padding: 10px;
+    color: #fff;
+}
+.upper-bar span{
+    color:#bfc6c9;
+}
+@media(min-width:768px){
+    .upper-bar .upper-bar-right{
+        text-align: right;
+    }
+}
+.upper-bar .get-queto{
+    display: inline-block;
+    padding: 2px 10px;
+    border: 1px solid var(--secondry-color);
+    margin-left: 20px;
+}
+.navbar-brand span{
+   font-size: 37px;
+}
+.navbar-brand span:first-child{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.navbar-brand span:last-child{
+    color: var(--secondry-color);
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    color:var(--main-color) ;
+    padding: 10px;
+    font-weight: 400;
+}
+.navbar-nav .active > .nav-link{
+    color: var(--secondry-color) !important;
+}
+/**NavBar End here**/
+/**Slider start  here**/
+.slider{
+    background-color: aqua;
+}
+.slider .carousel-inner{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.slider .carousel-item{
+   background-size: cover;
+}
+.slider .carousel-one{
+    background-image: url(../image/slider01.jpg);
+}
+.slider .carousel-second{
+    background-image: url(../image/slider02.jpg);
+}
+.slider .carousel-third{
+    background-image: url(../image/slider03.jpg);
+}
+.slider .carousel-inner h1{
+    position: absolute;
+ color: #fff;
+  z-index: 3;
+  max-width: 830px;
+  font-size: 70px;
+  line-height: 1.5;
+ }
+ @media(max-width:992px){
+    .slider .carousel-inner h1{
+        position: absolute;
+     color: #fff;
+      z-index: 3;
+      max-width: 830px;
+      font-size: 45px;
+      line-height: 1.5;
+     }
+ }
+ .slider .carousel-inner h1 span{
+    background-color: var(--secondry-color);
+    padding: 2px 10px;
+ }
+.slider .carousel-inner .overlay{
+    position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, .6);
+  z-index: 2;
+ }
+/**Slider End here**/
+/**Features start here**/
+.features{
+    margin-top: var(--margin-sections);
+}
+.features .features-content{
+    padding: 20px;
+}
+.features .features-content h4{
+    padding: 10px 0;
+    color: var(--main-color);
+}
+.features .features-content p{
+    line-height: 1.4;
+    color: var(--text-color);
+}
+.features  .features-content .icons{
+    background-color: #ed1d24;
+    color: #FFF;
+    margin-bottom: 10px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    padding: 9px;
+}
+/**Features End here**/
+/**company overview start here**/
+.company-overview p:first-of-type{
+    color: var(--text-color);
+    font-size: 20px;
+    margin: 20px auto 15px;
+    width: 50%;
+}
+.company-overview p:last-of-type{
+    color: var(--text-color);
+    font-size: 20px;
+    margin: 20px auto 15px;
+    width: 50%;
+    letter-spacing: 9px;
+}
+.company-overview .view-more-button{
+    background-color: var(--secondry-color);
+    color: white;
+    padding: 10px 30px;
+    margin-top: 21px;
+    font-size: 21px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+/**company overview End here**/
+.feature-work{
+    margin-top: var(--margin-sections);
+}
+ .content-description p{
+    color: var(--text-color);
+    font-size: 20px;
+    margin: 20px auto 28px;
+    width: 80%;
+}
+.feature-work .content-description button{
+  border: 3px solid var(--main-color);
+  padding: 7px 20px;
+  color: var(--main-color);
+  background-color: transparent;
+  font-weight: 500;
+  margin-bottom: 10px;
+  width: 120px;
+}
+.feature-work .content-description button:hover{
+    border: 2px solid var(--main-color);
+    padding: 7px 20px;
+    color: var(--main-color);
+    background-color: var(--secondry-color);
+    font-weight: 500;
+    transition: 0.5s all ease-in-out;
+  }
+/**feature work start here**/
+.feature-work .features-images{
+    margin-top: var(--margin-sections);
+}
+.feature-work .features-images .col-lg-3{
+   padding: 0;
+}
+.feature-work .row .images{
+ width: 100%;
+ }
+ .feature-work .second-features-images .col-lg-3{
+    padding: 0;
+ }
+/**feature work End here**/
+/**latest post start here**/
+.latest-post{
+    margin-top: var(--margin-sections);
+}
+.latest-post .card-content h4{
+    color: var(--main-color);
+}
+.latest-post .card-content p:first-of-type{
+    color: var(--text-color);
+}
+.latest-post .card-content p:last-of-type{
+    color: #4c4f4f;
+}
+.latest-post .card-content span{
+    color: var(--secondry-color);
+    font-weight: 500;
+    font-size: 20px;
+}
+/**latest post end here**/
+/**testimonial start here**/
+.testimonial .carousel-inner{
+    z-index: 1;
+}
+.testimonial .carousel-item{
+    background-size: cover;
+}
+.testimonial  .overlay-testimonial{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 2;
+}
+.testimonial .carousel-inner .carousel-caption{
+      top: 20%;
+      text-align: center;
+}
+.testimonial .carousel-inner .carousel-caption  p:first-of-type{
+    color: var(--text-color);
+}
+.testimonial .carousel-inner .carousel-caption  p:last-of-type{
+   width: 85%;
+   margin: 20px auto;
+}
+.testimonial .carousel-inner .carousel-caption  img{
+    padding: 30px 0;
+ }
+.testimonial .carousel-control-prev-icon,
+.testimonial .carousel-control-next-icon
+{
+ background-color: red;
+    /* padding: 69px 65px; */
+    padding: 14px 35px 73px 34px;
+    cursor: pointer;
+}
+@media (max-width:540px){
+    .testimonial .carousel-control-prev-icon,
+.testimonial .carousel-control-next-icon
+{
+ background-color: red;
+    /* padding: 69px 65px; */
+    padding: 1px 13px 73px 34px;
+    cursor: pointer;
+}
+}
+/**testimonial end here**/
+/**price table start here**/
+.price-table{
+    margin-top: var(--margin-sections);
+}
+.price-table .card{
+    margin-bottom: 30px;
+    border-radius: 6px;
+    box-shadow: 1px 0px 0px 1px var(--main-color);
+}
+.price-table .card-price-details h5,
+.price-table .card-price-details h1{
+    color:var(--main-color);
+}
+.price-table .card-price-details h1{
+    animation-name: price-color;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+.price-table .card-price-details .list-group-item{
+   border: none;
+}
+/**.price-table .card-price-details button{
+   padding: 10px 30px;
+   border: none;
+   color: white;
+   animation-name:  price-color-button;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}**/
+.price-table .card-price-details button{
+    background-color: var(--main-color);
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+.price-table .card{
+    height: 100%;
+}
+.price-table .middle-card{
+    transform: scale(1.1);
+}
+@media(max-width:540px){
+    .price-table .middle-card{
+        transform: none;
+        margin-top: 15px;
+    }
+    .price-table .third-card{
+        transform: none;
+        margin-top: 32px;
+    }
+}
+@keyframes   price-color{
+    from{
+        color: var(--secondry-color);
+    }
+    to{
+       color: var(--main-color);
+    }
+}
+@keyframes   price-color-button{
+    from{
+        background-color: var(--secondry-color);
+    }
+    to{
+       background-color: var(--main-color);
+    }
+}
+/**price table end here**/
+/**why chooose us start here**/
+.choose-us{
+    margin-top: 120px;
+}
+.choose-us .background-side{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.choose-us .choose-us-details{
+    background-color: var(--main-color);
+    background-color: #08526d;
+    color: #FFF;
+    padding: 60px 30px;
+    height: 100%;
+}
+.choose-us .choose-us-details p:first-of-type{
+   margin-top: 20px;
+   max-width: 80%;
+}
+.choose-us .choose-us-details p:last-of-type{
+    margin-top: 20px;
+    max-width: 80%;
+}
+.choose-us .choose-us-details button{
+    background-color: var(--secondry-color);
+    padding: 10px 30px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+.choose-us .row .col-sm{
+    padding: 0;
+    width: 100%;
+}
+/**why choose us end here**/
+/**statics start here**/
+.statics{
+    margin-top: var(--margin-sections);
+}
+.statics .statics-content .icons,
+.statics .statics-content h4{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.statics .statics-content p{
+    color: var(--secondry-color);
+    font-weight: 500;
+    font-size: 22px;
+}
+/**statics end here**/
+/**contact start here**/
+.contact{
+    background-color: var(--secondry-color);
+    margin-top: var(--margin-sections);
+}
+.contact .content{
+    padding: 50px 0;
+}
+.contact .content p{
+    color: white;
+    font-size: 30px;
+}
+.contact .content button{ 
+    padding: 6px 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid;
+}
+/**contact end here**/
+/**footer start here***/
+.footer{
+    margin-top: var(--margin-sections);
+    margin-bottom: 60px;
+}
+.footer .rows-sections{
+    display: flex;
+    flex-direction: row;
+}
+.first-section {
+    flex-basis: 33.3%;
+}
+.footer .first-section p{
+    color: var(--text-color);
+}
+.footer .first-section h5{
+    color: var(--main-color);
+    cursor: pointer;
+}
+.second-section{
+    flex-basis: 33.3%;
+}
+.second-section h3,
+.third-section h3{
+    color: var(--main-color);
+}
+.second-section .footer-list{
+    list-style: none;
+}
+.second-section .footer-list  li,
+.third-section .footer-list  li{
+    padding: 5px 0;
+    list-style: none;
+    color: var(--main-color);
+}
+.second-section .footer-list .icon::before{
+    color:#000;
+    content: '\f054'; /* You should use \ and not /*/
+    font-family: "Font Awesome 5 Free"; /* This is the correct font-family*/
+   font-weight: 900;
+    font-size:12px;
+}
+.third-section{
+    flex-basis: 33.3%;
+}
+.third-section .footer-list{
+    list-style: none;
+}
+.third-section .footer-list .first-icon::before{
+    color:#000;
+    content: '\f3cd'; /* You should use \ and not /*/
+    font-family: "Font Awesome 5 Free"; /* This is the correct font-family*/
+   font-weight: 900;
+    font-size:12px;
+}
+.third-section .footer-list .second-icon::before{
+    color:#000;
+    content: '\f0e0'; /* You should use \ and not /*/
+    font-family: "Font Awesome 5 Free"; /* This is the correct font-family*/
+   font-weight: 900;
+    font-size:12px;
+}
+.third-section .footer-list .third-icon::before{
+    color:#000;
+    content: '\f08d'; /* You should use \ and not /*/
+    font-family: "Font Awesome 5 Free"; /* This is the correct font-family*/
+   font-weight: 900;
+    font-size:12px;
+}
+.second-section .footer-list  li span,
+.third-section .footer-list  li span{
+ margin-right: 9px;
+}
+/***footer end here**/
+.footer-end {
+    background-color: #2c4755;
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .footer span {
+    font-weight: bold;
+    color: #777;
+  }
