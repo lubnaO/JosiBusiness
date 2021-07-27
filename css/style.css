@@ -17,7 +17,7 @@ Secondcolor:#ec1c23
     color: #fff;
 }
 .upper-bar span{
-    color:#bfc6c9;
+    color:white;
 }
 @media(min-width:768px){
     .upper-bar .upper-bar-right{
@@ -85,7 +85,17 @@ Secondcolor:#ec1c23
      color: #fff;
       z-index: 3;
       max-width: 830px;
-      font-size: 45px;
+      font-size: 50px;
+      line-height: 1.5;
+     }
+ }
+ @media(max-width:540px){
+    .slider .carousel-inner h1{
+        position: absolute;
+     color: #fff;
+      z-index: 3;
+      max-width: 830px;
+      font-size: 35px;
       line-height: 1.5;
      }
  }
